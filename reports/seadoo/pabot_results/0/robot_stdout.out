@@ -1,0 +1,298 @@
+==============================================================================
+Test2                                                                         
+==============================================================================
+Scenario Outline 01 - Verify translations for Ends on and Models o...   
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test2.robot:9
+    T:  Scenario Outline 01 - Verify translations for Ends on and Models on Promotion Page and Promotion Banner    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test2.robot:10
+      ${lang}    IN    @{LANGUAGES}    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test2.robot:10
+      ${lang} = EN    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test2.robot:16
+      Run Keyword And Continue On Failure    Scenario Outline 01 - Verify translations for Ends on and Models on Promotion Page and Promotion Banner    ${url_dictionary}    ${models}    ${ends_on_pow}    ${ends_on}
+      |  ${url_dictionary} = <Unable to define variable value>
+      |  ${models} = Models (str)
+      |  ${ends_on_pow} = Ends on {0} (str)
+      |  ${ends_on} = Ends on (str)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test2.robot:16
+      Scenario Outline 01 - Verify translations for Ends on and Models on Promotion Page and Promotion Banner    ${url_dictionary}    ${models}    ${ends_on_pow}    ${ends_on}
+      |  ${url_dictionary} = <Unable to define variable value>
+      |  ${models} = Models (str)
+      |  ${ends_on_pow} = Ends on {0} (str)
+      |  ${ends_on} = Ends on (str)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test2.robot:25
+      THEN the user checks the translations for the texts: "${MODELS}", "${ENDS_ON_POW}, "${ENDS_ON}"    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\resources\filter_keywords.robot:31
+      Should Be Equal    ${RESPONSE.json()['Ends on']}    ${ENDS_ON}
+      |  ${RESPONSE.json()['Ends on']} = <Unable to define variable value>
+      |  ${ENDS_ON} = Ends on (str)
+______________________________________________________________________________
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test2.robot:9
+    T:  Scenario Outline 01 - Verify translations for Ends on and Models on Promotion Page and Promotion Banner    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test2.robot:10
+      ${lang}    IN    @{LANGUAGES}    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test2.robot:10
+      ${lang} = FI    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test2.robot:16
+      Run Keyword And Continue On Failure    Scenario Outline 01 - Verify translations for Ends on and Models on Promotion Page and Promotion Banner    ${url_dictionary}    ${models}    ${ends_on_pow}    ${ends_on}
+      |  ${url_dictionary} = <Unable to define variable value>
+      |  ${models} = Mallit (str)
+      |  ${ends_on_pow} = Päättyy {0} (str)
+      |  ${ends_on} = Päättyy (str)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test2.robot:16
+      Scenario Outline 01 - Verify translations for Ends on and Models on Promotion Page and Promotion Banner    ${url_dictionary}    ${models}    ${ends_on_pow}    ${ends_on}
+      |  ${url_dictionary} = <Unable to define variable value>
+      |  ${models} = Mallit (str)
+      |  ${ends_on_pow} = Päättyy {0} (str)
+      |  ${ends_on} = Päättyy (str)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test2.robot:25
+      THEN the user checks the translations for the texts: "${MODELS}", "${ENDS_ON_POW}, "${ENDS_ON}"    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\resources\filter_keywords.robot:27
+      Should Be Equal    ${RESPONSE.json()['Models']}    ${MODELS}
+      |  ${RESPONSE.json()['Models']} = Models (str)
+      |  ${MODELS} = Mallit (str)
+______________________________________________________________________________
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test2.robot:9
+    T:  Scenario Outline 01 - Verify translations for Ends on and Models on Promotion Page and Promotion Banner    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test2.robot:10
+      ${lang}    IN    @{LANGUAGES}    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test2.robot:10
+      ${lang} = NO    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test2.robot:16
+      Run Keyword And Continue On Failure    Scenario Outline 01 - Verify translations for Ends on and Models on Promotion Page and Promotion Banner    ${url_dictionary}    ${models}    ${ends_on_pow}    ${ends_on}
+      |  ${url_dictionary} = <Unable to define variable value>
+      |  ${models} = Modeller (str)
+      |  ${ends_on_pow} = Slutter på {0} (str)
+      |  ${ends_on} = Slutter på (str)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test2.robot:16
+      Scenario Outline 01 - Verify translations for Ends on and Models on Promotion Page and Promotion Banner    ${url_dictionary}    ${models}    ${ends_on_pow}    ${ends_on}
+      |  ${url_dictionary} = <Unable to define variable value>
+      |  ${models} = Modeller (str)
+      |  ${ends_on_pow} = Slutter på {0} (str)
+      |  ${ends_on} = Slutter på (str)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test2.robot:25
+      THEN the user checks the translations for the texts: "${MODELS}", "${ENDS_ON_POW}, "${ENDS_ON}"    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\resources\filter_keywords.robot:27
+      Should Be Equal    ${RESPONSE.json()['Models']}    ${MODELS}
+      |  ${RESPONSE.json()['Models']} = Models (str)
+      |  ${MODELS} = Modeller (str)
+______________________________________________________________________________
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test2.robot:9
+    T:  Scenario Outline 01 - Verify translations for Ends on and Models on Promotion Page and Promotion Banner    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test2.robot:10
+      ${lang}    IN    @{LANGUAGES}    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test2.robot:10
+      ${lang} = SV    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test2.robot:16
+      Run Keyword And Continue On Failure    Scenario Outline 01 - Verify translations for Ends on and Models on Promotion Page and Promotion Banner    ${url_dictionary}    ${models}    ${ends_on_pow}    ${ends_on}
+      |  ${url_dictionary} = <Unable to define variable value>
+      |  ${models} = Modeller (str)
+      |  ${ends_on_pow} = Slutar på {0} (str)
+      |  ${ends_on} = Slutar på (str)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test2.robot:16
+      Scenario Outline 01 - Verify translations for Ends on and Models on Promotion Page and Promotion Banner    ${url_dictionary}    ${models}    ${ends_on_pow}    ${ends_on}
+      |  ${url_dictionary} = <Unable to define variable value>
+      |  ${models} = Modeller (str)
+      |  ${ends_on_pow} = Slutar på {0} (str)
+      |  ${ends_on} = Slutar på (str)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test2.robot:25
+      THEN the user checks the translations for the texts: "${MODELS}", "${ENDS_ON_POW}, "${ENDS_ON}"    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\resources\filter_keywords.robot:27
+      Should Be Equal    ${RESPONSE.json()['Models']}    ${MODELS}
+      |  ${RESPONSE.json()['Models']} = Models (str)
+      |  ${MODELS} = Modeller (str)
+______________________________________________________________________________
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test2.robot:9
+    T:  Scenario Outline 01 - Verify translations for Ends on and Models on Promotion Page and Promotion Banner    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test2.robot:10
+      ${lang}    IN    @{LANGUAGES}    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test2.robot:10
+      ${lang} = PT    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test2.robot:16
+      Run Keyword And Continue On Failure    Scenario Outline 01 - Verify translations for Ends on and Models on Promotion Page and Promotion Banner    ${url_dictionary}    ${models}    ${ends_on_pow}    ${ends_on}
+      |  ${url_dictionary} = <Unable to define variable value>
+      |  ${models} = Modelos (str)
+      |  ${ends_on_pow} = Termina em {0} (str)
+      |  ${ends_on} = Termina em (str)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test2.robot:16
+      Scenario Outline 01 - Verify translations for Ends on and Models on Promotion Page and Promotion Banner    ${url_dictionary}    ${models}    ${ends_on_pow}    ${ends_on}
+      |  ${url_dictionary} = <Unable to define variable value>
+      |  ${models} = Modelos (str)
+      |  ${ends_on_pow} = Termina em {0} (str)
+      |  ${ends_on} = Termina em (str)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test2.robot:25
+      THEN the user checks the translations for the texts: "${MODELS}", "${ENDS_ON_POW}, "${ENDS_ON}"    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\resources\filter_keywords.robot:31
+      Should Be Equal    ${RESPONSE.json()['Ends on']}    ${ENDS_ON}
+      |  ${RESPONSE.json()['Ends on']} = <Unable to define variable value>
+      |  ${ENDS_ON} = Termina em (str)
+______________________________________________________________________________
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test2.robot:9
+    T:  Scenario Outline 01 - Verify translations for Ends on and Models on Promotion Page and Promotion Banner    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test2.robot:10
+      ${lang}    IN    @{LANGUAGES}    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test2.robot:10
+      ${lang} = DE    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test2.robot:16
+      Run Keyword And Continue On Failure    Scenario Outline 01 - Verify translations for Ends on and Models on Promotion Page and Promotion Banner    ${url_dictionary}    ${models}    ${ends_on_pow}    ${ends_on}
+      |  ${url_dictionary} = <Unable to define variable value>
+      |  ${models} = Modelle (str)
+      |  ${ends_on_pow} = Endet am {0} (str)
+      |  ${ends_on} = Endet am (str)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test2.robot:16
+      Scenario Outline 01 - Verify translations for Ends on and Models on Promotion Page and Promotion Banner    ${url_dictionary}    ${models}    ${ends_on_pow}    ${ends_on}
+      |  ${url_dictionary} = <Unable to define variable value>
+      |  ${models} = Modelle (str)
+      |  ${ends_on_pow} = Endet am {0} (str)
+      |  ${ends_on} = Endet am (str)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test2.robot:25
+      THEN the user checks the translations for the texts: "${MODELS}", "${ENDS_ON_POW}, "${ENDS_ON}"    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\resources\filter_keywords.robot:29
+      Should Be Equal    ${RESPONSE.json()['Ends on ((POW))']}    ${ENDS_ON_POW}
+      |  ${RESPONSE.json()['Ends on ((POW))']} = Ends on {0} (str)
+      |  ${ENDS_ON_POW} = Endet am {0} (str)
+______________________________________________________________________________
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test2.robot:9
+    T:  Scenario Outline 01 - Verify translations for Ends on and Models on Promotion Page and Promotion Banner    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test2.robot:10
+      ${lang}    IN    @{LANGUAGES}    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test2.robot:10
+      ${lang} = NL    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test2.robot:16
+      Run Keyword And Continue On Failure    Scenario Outline 01 - Verify translations for Ends on and Models on Promotion Page and Promotion Banner    ${url_dictionary}    ${models}    ${ends_on_pow}    ${ends_on}
+      |  ${url_dictionary} = <Unable to define variable value>
+      |  ${models} = Modellen (str)
+      |  ${ends_on_pow} = Eindigt op {0} (str)
+      |  ${ends_on} = Eindigt op (str)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test2.robot:16
+      Scenario Outline 01 - Verify translations for Ends on and Models on Promotion Page and Promotion Banner    ${url_dictionary}    ${models}    ${ends_on_pow}    ${ends_on}
+      |  ${url_dictionary} = <Unable to define variable value>
+      |  ${models} = Modellen (str)
+      |  ${ends_on_pow} = Eindigt op {0} (str)
+      |  ${ends_on} = Eindigt op (str)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test2.robot:25
+      THEN the user checks the translations for the texts: "${MODELS}", "${ENDS_ON_POW}, "${ENDS_ON}"    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\resources\filter_keywords.robot:27
+      Should Be Equal    ${RESPONSE.json()['Models']}    ${MODELS}
+      |  ${RESPONSE.json()['Models']} = Models (str)
+      |  ${MODELS} = Modellen (str)
+______________________________________________________________________________
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test2.robot:9
+    T:  Scenario Outline 01 - Verify translations for Ends on and Models on Promotion Page and Promotion Banner    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test2.robot:10
+      ${lang}    IN    @{LANGUAGES}    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test2.robot:10
+      ${lang} = IT    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test2.robot:16
+      Run Keyword And Continue On Failure    Scenario Outline 01 - Verify translations for Ends on and Models on Promotion Page and Promotion Banner    ${url_dictionary}    ${models}    ${ends_on_pow}    ${ends_on}
+      |  ${url_dictionary} = <Unable to define variable value>
+      |  ${models} = Modelli (str)
+      |  ${ends_on_pow} = Termina il {0} (str)
+      |  ${ends_on} = Termina il (str)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test2.robot:16
+      Scenario Outline 01 - Verify translations for Ends on and Models on Promotion Page and Promotion Banner    ${url_dictionary}    ${models}    ${ends_on_pow}    ${ends_on}
+      |  ${url_dictionary} = <Unable to define variable value>
+      |  ${models} = Modelli (str)
+      |  ${ends_on_pow} = Termina il {0} (str)
+      |  ${ends_on} = Termina il (str)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test2.robot:25
+      THEN the user checks the translations for the texts: "${MODELS}", "${ENDS_ON_POW}, "${ENDS_ON}"    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\resources\filter_keywords.robot:29
+      Should Be Equal    ${RESPONSE.json()['Ends on ((POW))']}    ${ENDS_ON_POW}
+      |  ${RESPONSE.json()['Ends on ((POW))']} = Ends on {0} (str)
+      |  ${ENDS_ON_POW} = Termina il {0} (str)
+______________________________________________________________________________
+| FAIL |
+Several failures occurred:
+
+1) Resolving variable '${RESPONSE.json()['Ends on']}' failed: KeyError: 'Ends on'
+
+2) Models != Mallit
+
+3) Models != Modeller
+
+4) Models != Modeller
+
+5) Resolving variable '${RESPONSE.json()['Ends on']}' failed: KeyError: 'Ends on'
+
+6) Ends on {0} != Endet am {0}
+
+7) Models != Modellen
+
+8) Ends on {0} != Termina il {0}
+------------------------------------------------------------------------------
+Test2                                                                 | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  Z:\robot\API-BRP\reports\seadoo\pabot_results\0\output.xml
