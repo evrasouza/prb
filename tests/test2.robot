@@ -9,9 +9,9 @@ Resource    ../resources/translations.robot
 Scenario Outline 01 - Verify translations for Ends on and Models on Promotion Page and Promotion Banner
     FOR    ${lang}    IN    @{LANGUAGES}
         ${url_dictionary}    Set Variable    ${${lang}}
-        ${models}    Set Variable    ${${lang}_MODELS}
-        ${ends_on_pow}    Set Variable    ${${lang}_ENDS_ON_POW}
-        ${ends_on}    Set Variable    ${${lang}_ENDS_ON}    
+        ${models}            Set Variable    ${${lang}_MODELS}
+        ${ends_on_pow}       Set Variable    ${${lang}_ENDS_ON_POW}
+        ${ends_on}           Set Variable    ${${lang}_ENDS_ON}    
         Run Keyword And Continue On Failure    Scenario Outline 01 - Verify translations for Ends on and Models on Promotion Page and Promotion Banner    
         ...    ${url_dictionary}    ${models}    ${ends_on_pow}    ${ends_on}
     END
