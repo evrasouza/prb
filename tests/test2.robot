@@ -11,13 +11,14 @@ Scenario Outline 01 - Verify translations for Ends on and Models on Promotion Pa
         ${url_dictionary}    Set Variable    ${${lang}}
         ${models}            Set Variable    ${${lang}_MODELS}
         ${ends_on_pow}       Set Variable    ${${lang}_ENDS_ON_POW}
-        ${ends_on}           Set Variable    ${${lang}_ENDS_ON}    
+        ${ends_on}           Set Variable    ${${lang}_ENDS_ON} 
+        ${deal_and_offers}   Set Variable    ${${lang}_DEAL_AND_OFFERS}
         Run Keyword And Continue On Failure    Scenario Outline 01 - Verify translations for Ends on and Models on Promotion Page and Promotion Banner    
-        ...    ${url_dictionary}    ${models}    ${ends_on_pow}    ${ends_on}
+        ...    ${url_dictionary}    ${models}    ${ends_on_pow}    ${ends_on}    ${deal_and_offers}
     END
 
 ***Keywords***
 Scenario Outline 01 - Verify translations for Ends on and Models on Promotion Page and Promotion Banner
-    [Arguments]    ${URL_DICTIONARY}    ${MODELS}    ${ENDS_ON_POW}    ${ENDS_ON}
+    [Arguments]    ${URL_DICTIONARY}    ${MODELS}    ${ENDS_ON_POW}    ${ENDS_ON}    ${DEAL_AND_OFFERS}
     GIVEN client sends GET request to filter endpoint    ${URL_DICTIONARY}
-    THEN the user checks the translations for the texts: "${MODELS}", "${ENDS_ON_POW}, "${ENDS_ON}"
+    THEN the user checks the translations for the texts: "${MODELS}", "${ENDS_ON_POW}, "${ENDS_ON}", "${DEAL_AND_OFFERS}"

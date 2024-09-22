@@ -1,0 +1,340 @@
+==============================================================================
+Test3                                                                         
+==============================================================================
+Scenario Outline 01 - Verify translations for Promotion Page and P...   
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test3.robot:9
+    T:  Scenario Outline 01 - Verify translations for Promotion Page and Promotion Banner    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test3.robot:10
+      ${lang}    IN    @{LANGUAGES}    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test3.robot:10
+      ${lang} = EN    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test3.robot:13
+      Run Keyword And Continue On Failure    Verify Translations for Promotion Page and Banner    ${url_dictionary}    ${translations}
+      |  ${url_dictionary} = https://sea-doo.brp.com/libs/cq/i18n/dict.EN-CA.json (str)
+      |  ${translations} = {'MODELS': 'Models', 'ENDS_ON_POW': 'Ends on Power', 'ENDS_ON': 'Ends on', 'DEAL_AND_OFFERS': 'Deals and Offers'} (DotDict)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test3.robot:13
+      Verify Translations for Promotion Page and Banner    ${url_dictionary}    ${translations}
+      |  ${url_dictionary} = https://sea-doo.brp.com/libs/cq/i18n/dict.EN-CA.json (str)
+      |  ${translations} = {'MODELS': 'Models', 'ENDS_ON_POW': 'Ends on Power', 'ENDS_ON': 'Ends on', 'DEAL_AND_OFFERS': 'Deals and Offers'} (DotDict)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\resources\filter_keywords2.robot:37
+      ${key}    ${value}    IN    &{TRANSLATIONS}    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\resources\filter_keywords2.robot:37
+      ${key} = MODELS, ${value} = Models    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\resources\filter_keywords2.robot:38
+      THEN the user checks the translation for "${key}" with value "${value}"    
+______________________________________________________________________________
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test3.robot:9
+    T:  Scenario Outline 01 - Verify translations for Promotion Page and Promotion Banner    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test3.robot:10
+      ${lang}    IN    @{LANGUAGES}    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test3.robot:10
+      ${lang} = FR    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test3.robot:13
+      Run Keyword And Continue On Failure    Verify Translations for Promotion Page and Banner    ${url_dictionary}    ${translations}
+      |  ${url_dictionary} = https://sea-doo.brp.com/libs/cq/i18n/dict.fr-CA.json (str)
+      |  ${translations} = {'MODELS': 'Modèles', 'ENDS_ON_POW': 'Se termine sur Power', 'ENDS_ON': 'Se termine', 'DEAL_AND_OFFERS': 'Offres et Promotions'} (DotDict)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test3.robot:13
+      Verify Translations for Promotion Page and Banner    ${url_dictionary}    ${translations}
+      |  ${url_dictionary} = https://sea-doo.brp.com/libs/cq/i18n/dict.fr-CA.json (str)
+      |  ${translations} = {'MODELS': 'Modèles', 'ENDS_ON_POW': 'Se termine sur Power', 'ENDS_ON': 'Se termine', 'DEAL_AND_OFFERS': 'Offres et Promotions'} (DotDict)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\resources\filter_keywords2.robot:37
+      ${key}    ${value}    IN    &{TRANSLATIONS}    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\resources\filter_keywords2.robot:37
+      ${key} = MODELS, ${value} = Modèles    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\resources\filter_keywords2.robot:38
+      THEN the user checks the translation for "${key}" with value "${value}"    
+______________________________________________________________________________
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test3.robot:9
+    T:  Scenario Outline 01 - Verify translations for Promotion Page and Promotion Banner    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test3.robot:10
+      ${lang}    IN    @{LANGUAGES}    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test3.robot:10
+      ${lang} = FI    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test3.robot:13
+      Run Keyword And Continue On Failure    Verify Translations for Promotion Page and Banner    ${url_dictionary}    ${translations}
+      |  ${url_dictionary} = https://sea-doo.brp.com/libs/cq/i18n/dict.fi-FI.json (str)
+      |  ${translations} = {'MODELS': 'Mallit', 'ENDS_ON_POW': 'Päättyy {0}', 'ENDS_ON': 'Päättyy', 'DEAL_AND_OFFERS': 'Deal and offers'} (DotDict)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test3.robot:13
+      Verify Translations for Promotion Page and Banner    ${url_dictionary}    ${translations}
+      |  ${url_dictionary} = https://sea-doo.brp.com/libs/cq/i18n/dict.fi-FI.json (str)
+      |  ${translations} = {'MODELS': 'Mallit', 'ENDS_ON_POW': 'Päättyy {0}', 'ENDS_ON': 'Päättyy', 'DEAL_AND_OFFERS': 'Deal and offers'} (DotDict)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\resources\filter_keywords2.robot:37
+      ${key}    ${value}    IN    &{TRANSLATIONS}    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\resources\filter_keywords2.robot:37
+      ${key} = MODELS, ${value} = Mallit    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\resources\filter_keywords2.robot:38
+      THEN the user checks the translation for "${key}" with value "${value}"    
+______________________________________________________________________________
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test3.robot:9
+    T:  Scenario Outline 01 - Verify translations for Promotion Page and Promotion Banner    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test3.robot:10
+      ${lang}    IN    @{LANGUAGES}    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test3.robot:10
+      ${lang} = NO    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test3.robot:13
+      Run Keyword And Continue On Failure    Verify Translations for Promotion Page and Banner    ${url_dictionary}    ${translations}
+      |  ${url_dictionary} = https://sea-doo.brp.com/libs/cq/i18n/dict.no-NO.json (str)
+      |  ${translations} = {'MODELS': 'Modeller', 'ENDS_ON_POW': 'Slutter på {0}', 'ENDS_ON': 'Slutter på', 'DEAL_AND_OFFERS': 'Deal and offers'} (DotDict)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test3.robot:13
+      Verify Translations for Promotion Page and Banner    ${url_dictionary}    ${translations}
+      |  ${url_dictionary} = https://sea-doo.brp.com/libs/cq/i18n/dict.no-NO.json (str)
+      |  ${translations} = {'MODELS': 'Modeller', 'ENDS_ON_POW': 'Slutter på {0}', 'ENDS_ON': 'Slutter på', 'DEAL_AND_OFFERS': 'Deal and offers'} (DotDict)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\resources\filter_keywords2.robot:37
+      ${key}    ${value}    IN    &{TRANSLATIONS}    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\resources\filter_keywords2.robot:37
+      ${key} = MODELS, ${value} = Modeller    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\resources\filter_keywords2.robot:38
+      THEN the user checks the translation for "${key}" with value "${value}"    
+______________________________________________________________________________
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test3.robot:9
+    T:  Scenario Outline 01 - Verify translations for Promotion Page and Promotion Banner    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test3.robot:10
+      ${lang}    IN    @{LANGUAGES}    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test3.robot:10
+      ${lang} = SV    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test3.robot:13
+      Run Keyword And Continue On Failure    Verify Translations for Promotion Page and Banner    ${url_dictionary}    ${translations}
+      |  ${url_dictionary} = https://sea-doo.brp.com/libs/cq/i18n/dict.sv-SE.json (str)
+      |  ${translations} = {'MODELS': 'Modeller', 'ENDS_ON_POW': 'Slutar på {0}', 'ENDS_ON': 'Slutar på', 'DEAL_AND_OFFERS': 'Deal and offers'} (DotDict)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test3.robot:13
+      Verify Translations for Promotion Page and Banner    ${url_dictionary}    ${translations}
+      |  ${url_dictionary} = https://sea-doo.brp.com/libs/cq/i18n/dict.sv-SE.json (str)
+      |  ${translations} = {'MODELS': 'Modeller', 'ENDS_ON_POW': 'Slutar på {0}', 'ENDS_ON': 'Slutar på', 'DEAL_AND_OFFERS': 'Deal and offers'} (DotDict)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\resources\filter_keywords2.robot:37
+      ${key}    ${value}    IN    &{TRANSLATIONS}    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\resources\filter_keywords2.robot:37
+      ${key} = MODELS, ${value} = Modeller    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\resources\filter_keywords2.robot:38
+      THEN the user checks the translation for "${key}" with value "${value}"    
+______________________________________________________________________________
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test3.robot:9
+    T:  Scenario Outline 01 - Verify translations for Promotion Page and Promotion Banner    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test3.robot:10
+      ${lang}    IN    @{LANGUAGES}    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test3.robot:10
+      ${lang} = ES    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test3.robot:13
+      Run Keyword And Continue On Failure    Verify Translations for Promotion Page and Banner    ${url_dictionary}    ${translations}
+      |  ${url_dictionary} = https://sea-doo.brp.com/libs/cq/i18n/dict.es-ES.json (str)
+      |  ${translations} = {'MODELS': 'Modelos', 'ENDS_ON_POW': 'Termina el {0}', 'ENDS_ON': 'Termina el', 'DEAL_AND_OFFERS': 'Deal and offers'} (DotDict)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test3.robot:13
+      Verify Translations for Promotion Page and Banner    ${url_dictionary}    ${translations}
+      |  ${url_dictionary} = https://sea-doo.brp.com/libs/cq/i18n/dict.es-ES.json (str)
+      |  ${translations} = {'MODELS': 'Modelos', 'ENDS_ON_POW': 'Termina el {0}', 'ENDS_ON': 'Termina el', 'DEAL_AND_OFFERS': 'Deal and offers'} (DotDict)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\resources\filter_keywords2.robot:37
+      ${key}    ${value}    IN    &{TRANSLATIONS}    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\resources\filter_keywords2.robot:37
+      ${key} = MODELS, ${value} = Modelos    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\resources\filter_keywords2.robot:38
+      THEN the user checks the translation for "${key}" with value "${value}"    
+______________________________________________________________________________
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test3.robot:9
+    T:  Scenario Outline 01 - Verify translations for Promotion Page and Promotion Banner    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test3.robot:10
+      ${lang}    IN    @{LANGUAGES}    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test3.robot:10
+      ${lang} = PT    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test3.robot:13
+      Run Keyword And Continue On Failure    Verify Translations for Promotion Page and Banner    ${url_dictionary}    ${translations}
+      |  ${url_dictionary} = https://sea-doo.brp.com/libs/cq/i18n/dict.pt-BR.json (str)
+      |  ${translations} = {'MODELS': 'Modelos', 'ENDS_ON_POW': 'Termina em {0}', 'ENDS_ON': 'Termina em', 'DEAL_AND_OFFERS': 'Deal and offers'} (DotDict)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test3.robot:13
+      Verify Translations for Promotion Page and Banner    ${url_dictionary}    ${translations}
+      |  ${url_dictionary} = https://sea-doo.brp.com/libs/cq/i18n/dict.pt-BR.json (str)
+      |  ${translations} = {'MODELS': 'Modelos', 'ENDS_ON_POW': 'Termina em {0}', 'ENDS_ON': 'Termina em', 'DEAL_AND_OFFERS': 'Deal and offers'} (DotDict)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\resources\filter_keywords2.robot:37
+      ${key}    ${value}    IN    &{TRANSLATIONS}    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\resources\filter_keywords2.robot:37
+      ${key} = MODELS, ${value} = Modelos    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\resources\filter_keywords2.robot:38
+      THEN the user checks the translation for "${key}" with value "${value}"    
+______________________________________________________________________________
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test3.robot:9
+    T:  Scenario Outline 01 - Verify translations for Promotion Page and Promotion Banner    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test3.robot:10
+      ${lang}    IN    @{LANGUAGES}    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test3.robot:10
+      ${lang} = DE    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test3.robot:13
+      Run Keyword And Continue On Failure    Verify Translations for Promotion Page and Banner    ${url_dictionary}    ${translations}
+      |  ${url_dictionary} = https://sea-doo.brp.com/libs/cq/i18n/dict.de-DE.json (str)
+      |  ${translations} = {'MODELS': 'Modelle', 'ENDS_ON_POW': 'Endet am {0}', 'ENDS_ON': 'Endet am', 'DEAL_AND_OFFERS': 'Deal and offers'} (DotDict)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test3.robot:13
+      Verify Translations for Promotion Page and Banner    ${url_dictionary}    ${translations}
+      |  ${url_dictionary} = https://sea-doo.brp.com/libs/cq/i18n/dict.de-DE.json (str)
+      |  ${translations} = {'MODELS': 'Modelle', 'ENDS_ON_POW': 'Endet am {0}', 'ENDS_ON': 'Endet am', 'DEAL_AND_OFFERS': 'Deal and offers'} (DotDict)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\resources\filter_keywords2.robot:37
+      ${key}    ${value}    IN    &{TRANSLATIONS}    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\resources\filter_keywords2.robot:37
+      ${key} = MODELS, ${value} = Modelle    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\resources\filter_keywords2.robot:38
+      THEN the user checks the translation for "${key}" with value "${value}"    
+______________________________________________________________________________
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test3.robot:9
+    T:  Scenario Outline 01 - Verify translations for Promotion Page and Promotion Banner    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test3.robot:10
+      ${lang}    IN    @{LANGUAGES}    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test3.robot:10
+      ${lang} = NL    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test3.robot:13
+      Run Keyword And Continue On Failure    Verify Translations for Promotion Page and Banner    ${url_dictionary}    ${translations}
+      |  ${url_dictionary} = https://sea-doo.brp.com/libs/cq/i18n/dict.nl-NL.json (str)
+      |  ${translations} = {'MODELS': 'Modellen', 'ENDS_ON_POW': 'Eindigt op {0}', 'ENDS_ON': 'Eindigt op', 'DEAL_AND_OFFERS': 'Deal and offers'} (DotDict)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test3.robot:13
+      Verify Translations for Promotion Page and Banner    ${url_dictionary}    ${translations}
+      |  ${url_dictionary} = https://sea-doo.brp.com/libs/cq/i18n/dict.nl-NL.json (str)
+      |  ${translations} = {'MODELS': 'Modellen', 'ENDS_ON_POW': 'Eindigt op {0}', 'ENDS_ON': 'Eindigt op', 'DEAL_AND_OFFERS': 'Deal and offers'} (DotDict)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\resources\filter_keywords2.robot:37
+      ${key}    ${value}    IN    &{TRANSLATIONS}    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\resources\filter_keywords2.robot:37
+      ${key} = MODELS, ${value} = Modellen    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\resources\filter_keywords2.robot:38
+      THEN the user checks the translation for "${key}" with value "${value}"    
+______________________________________________________________________________
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test3.robot:9
+    T:  Scenario Outline 01 - Verify translations for Promotion Page and Promotion Banner    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test3.robot:10
+      ${lang}    IN    @{LANGUAGES}    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test3.robot:10
+      ${lang} = IT    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test3.robot:13
+      Run Keyword And Continue On Failure    Verify Translations for Promotion Page and Banner    ${url_dictionary}    ${translations}
+      |  ${url_dictionary} = https://sea-doo.brp.com/libs/cq/i18n/dict.it-IT.json (str)
+      |  ${translations} = {'MODELS': 'Modelli', 'ENDS_ON_POW': 'Termina il {0}', 'ENDS_ON': 'Termina il', 'DEAL_AND_OFFERS': 'Deal and offers'} (DotDict)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\tests\test3.robot:13
+      Verify Translations for Promotion Page and Banner    ${url_dictionary}    ${translations}
+      |  ${url_dictionary} = https://sea-doo.brp.com/libs/cq/i18n/dict.it-IT.json (str)
+      |  ${translations} = {'MODELS': 'Modelli', 'ENDS_ON_POW': 'Termina il {0}', 'ENDS_ON': 'Termina il', 'DEAL_AND_OFFERS': 'Deal and offers'} (DotDict)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\resources\filter_keywords2.robot:37
+      ${key}    ${value}    IN    &{TRANSLATIONS}    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\resources\filter_keywords2.robot:37
+      ${key} = MODELS, ${value} = Modelli    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  Z:\robot\API-BRP\resources\filter_keywords2.robot:38
+      THEN the user checks the translation for "${key}" with value "${value}"    
+______________________________________________________________________________
+| FAIL |
+Several failures occurred:
+
+1) Keyword 'filter_keywords2.THEN the user checks the translation for "${key}" with value "${value}"' expected 2 arguments, got 0.
+
+2) Keyword 'filter_keywords2.THEN the user checks the translation for "${key}" with value "${value}"' expected 2 arguments, got 0.
+
+3) Keyword 'filter_keywords2.THEN the user checks the translation for "${key}" with value "${value}"' expected 2 arguments, got 0.
+
+4) Keyword 'filter_keywords2.THEN the user checks the translation for "${key}" with value "${value}"' expected 2 arguments, got 0.
+
+5) Keyword 'filter_keywords2.THEN the user checks the translation for "${key}" with value "${value}"' expected 2 arguments, got 0.
+
+6) Keyword 'filter_keywords2.THEN the user checks the translation for "${key}" with value "${value}"' expected 2 arguments, got 0.
+
+7) Keyword 'filter_keywords2.THEN the user checks the translation for "${key}" with value "${value}"' expected 2 arguments, got 0.
+
+8) Keyword 'filter_keywords2.THEN the user checks the translation for "${key}" with value "${value}"' expected 2 arguments, got 0.
+
+9) Keyword 'filter_keywords2.THEN the user checks the translation for "${key}" with value "${value}"' expected 2 arguments, got 0.
+
+10) Keyword 'filter_keywords2.THEN the user checks the translation for "${key}" with value "${value}"' expected 2 arguments, got 0.
+------------------------------------------------------------------------------
+Test3                                                                 | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  Z:\robot\API-BRP\reports\seadoo\pabot_results\0\output.xml
