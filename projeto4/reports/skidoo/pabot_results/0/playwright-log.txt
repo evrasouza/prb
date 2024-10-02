@@ -1,0 +1,39 @@
+{"level":30,"time":"2024-10-02T23:45:43.045Z","pid":3520,"hostname":"notreveleafar","msg":"Listening on 50367"}
+(node:3520) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2024-10-02T23:45:43.215Z","pid":3520,"hostname":"notreveleafar","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-10-02T23:45:43.215Z","pid":3520,"hostname":"notreveleafar","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-10-02T23:45:43.218Z","pid":3520,"hostname":"notreveleafar","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-10-02T23:45:43.218Z","pid":3520,"hostname":"notreveleafar","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Python311\Lib\site-packages\Browser\wrapper\index.js:10748:15)
+    at PlaywrightServer.getActiveBrowser (C:\Python311\Lib\site-packages\Browser\wrapper\index.js:11364:59)
+    at PlaywrightServer.setTimeout (C:\Python311\Lib\site-packages\Browser\wrapper\index.js:11603:57)
+    at Object.onReceiveHalfClose (C:\Python311\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1425:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Python311\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:569:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Python311\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:609:14)
+    at ServerHttp2Stream.<anonymous> (C:\Python311\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (node:events:526:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+=============================================================
+{"level":30,"time":"2024-10-02T23:45:48.259Z","pid":3520,"hostname":"notreveleafar","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-10-02T23:45:48.259Z","pid":3520,"hostname":"notreveleafar","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Python311\Lib\site-packages\Browser\wrapper\index.js:10748:15)
+    at PlaywrightServer.getActiveBrowser (C:\Python311\Lib\site-packages\Browser\wrapper\index.js:11364:59)
+    at PlaywrightServer.setTimeout (C:\Python311\Lib\site-packages\Browser\wrapper\index.js:11603:57)
+    at Object.onReceiveHalfClose (C:\Python311\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1425:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Python311\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:569:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Python311\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:609:14)
+    at ServerHttp2Stream.<anonymous> (C:\Python311\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (node:events:526:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+=============================================================
+{"level":30,"time":"2024-10-02T23:45:48.275Z","pid":3520,"hostname":"notreveleafar","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-10-02T23:45:48.275Z","pid":3520,"hostname":"notreveleafar","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-10-02T23:45:48.288Z","pid":3520,"hostname":"notreveleafar","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2024-10-02T23:45:48.289Z","pid":3520,"hostname":"notreveleafar","msg":"End of node method closeAllBrowsers"}

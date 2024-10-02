@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.11.5 on win32)" generated="2024-09-29T09:23:56.552561" rpa="false" schemaversion="5">
+<suite id="s1" name="Test2" source="Z:\robot\API-BRP\tests\test2.robot">
+<test id="s1-t1" name="Scenario Outline 01 - Verify translations for Ends on and Models on Promotion Page and Promotion Banner" line="9">
+<for flavor="IN">
+<iter>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2024-09-29T09:23:56.677967" level="FAIL">Variable '${EN}' not found. Did you mean:
+    ${EN_URL}</msg>
+<var>${url_dictionary}</var>
+<arg>${${lang}}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="FAIL" start="2024-09-29T09:23:56.677967" elapsed="0.000000">Variable '${EN}' not found. Did you mean:
+    ${EN_URL}</status>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<var>${models}</var>
+<arg>${${lang}_MODELS}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" start="2024-09-29T09:23:56.677967" elapsed="0.000000"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<var>${ends_on_pow}</var>
+<arg>${${lang}_ENDS_ON_POW}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" start="2024-09-29T09:23:56.677967" elapsed="0.000000"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<var>${ends_on}</var>
+<arg>${${lang}_ENDS_ON}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" start="2024-09-29T09:23:56.677967" elapsed="0.000000"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<var>${deal_and_offers}</var>
+<arg>${${lang}_DEAL_AND_OFFERS}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" start="2024-09-29T09:23:56.677967" elapsed="0.000000"/>
+</kw>
+<kw name="Run Keyword And Continue On Failure" owner="BuiltIn">
+<arg>Scenario Outline 01 - Verify translations for Ends on and Models on Promotion Page and Promotion Banner</arg>
+<arg>${url_dictionary}</arg>
+<arg>${models}</arg>
+<arg>${ends_on_pow}</arg>
+<arg>${ends_on}</arg>
+<arg>${deal_and_offers}</arg>
+<doc>Runs the keyword and continues execution even if a failure occurs.</doc>
+<status status="NOT RUN" start="2024-09-29T09:23:56.677967" elapsed="0.000000"/>
+</kw>
+<var name="${lang}">EN</var>
+<status status="FAIL" start="2024-09-29T09:23:56.677967" elapsed="0.000000">Variable '${EN}' not found. Did you mean:
+    ${EN_URL}</status>
+</iter>
+<var>${lang}</var>
+<value>@{LANGUAGES}</value>
+<status status="FAIL" start="2024-09-29T09:23:56.677967" elapsed="0.000000">Variable '${EN}' not found. Did you mean:
+    ${EN_URL}</status>
+</for>
+<status status="FAIL" start="2024-09-29T09:23:56.677967" elapsed="0.000000">Variable '${EN}' not found. Did you mean:
+    ${EN_URL}</status>
+</test>
+<status status="FAIL" start="2024-09-29T09:23:56.568190" elapsed="0.125671"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Test2">Test2</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
